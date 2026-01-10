@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Subramanian</title>
+
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/Abhishek8-netizen/Portfolio/refs/heads/main/Pictures/Portfolio.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="body-gradient">
+    </div>
+    <header id="home">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
+                    style="background-color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            Menu
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body" style="background-color: #2F5D50;">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About Me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#skills">Skills</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#projects">Projects</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Get In Touch</a>
+                            </li>
+
+                            <br><br>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white"
+                                    href="https://www.linkedin.com/in/abhishek-subramanian-64811b31a/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                    LinkedIn</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://github.com/Abhishek8-netizen"
+                                    target="_blank">
+                                    <i class="fab fa-github"></i> GitHub</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="parallax" style="background-image: url(Pictures/Picture_1.jpg);">
+        <div id="introduction">
+            <h1 class="text-white">Hello, I'm Abhishek Subramanian</h1>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container d-flex">
+            <h1 class="ms-5" style="color: #2F5D50;">About me</h1>
+        </div>
+
+        <div class="container d-flex">
+            <p class="ms-5 fs-5 mt-3">
+                I am a second-year Computer Science student at Rajagiri College of Social Sciences with a basic
+                foundation in front-end web development. I have hands-on experience building websites using HTML, CSS
+                and Java Script. I also have foundational knowledge in Python and Java. Passionate about leveraging
+                technology to create impactful solutions and eager to contribute to innovative projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container d-flex">
+            <h1 class="ms-5" style="color: #2F5D50;">Education</h1>
+        </div>
+
+        <div class="container d-flex">
+
+            <ul class="list-group list-group-flush ms-5 fs-5">
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    12th Grade - Naipunya Public School Kochi
+                </li>
+
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    10th Grade - Naipunya Public School Kochi
+                </li>
+
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    BSc Computer Science (Hons.) with Data Analytics - Rajagiri
+                    College of Social Sciences
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <div class="container d-flex">
+            <h1 class="ms-5" style="color: #2F5D50;">
+                Technologies
+            </h1>
+        </div>
+
+        <div class="container d-flex mt-2">
+            <h3 class="ms-5" style="color: #75A896;">
+                Frontend
+            </h3>
+        </div>
+
+        <div class="container d-flex flex-wrap mt-3 gap-5 justify-content-start">
+
+            <div id="html" class="skill_card ms-5" data-label="HTML5">
+                <img src="Pictures/html_logo.png" class="card-img-top" alt="...">
+                <h6>
+                    <span>
+                        HTML5
+                    </span>
+                </h6>
+            </div>
+
+            <div id="css" class="skill_card" data-label="Cascading Style Sheets">
+                <img src="Pictures/css_logo_1.png" class="card-img-top" alt="...">
+                <h6>
+                    <span>
+                        Cascading Style Sheets
+                    </span>
+                </h6>
+            </div>
+
+            <div id="js" class="skill_card" data-label="JavaScript">
+                <img src="Pictures/js_logo.png" class="card-img-top" alt="...">
+                <h6>
+                    <span>
+                        JavaScript
+                    </span>
+                </h6>
+            </div>
+
+            <div class="skill_card p-0" data-label="Bootstrap">
+                <img src="Pictures/bootstrap_logo.png" class="card-img-top" alt="">
+                <h6>
+                    <span>
+                        Bootstrap
+                    </span>
+                </h6>
+            </div>
+
+        </div>
+
+        <div class="container d-flex" style="margin-top: 4rem;">
+            <h3 class="ms-5" style="color: #75A896;">
+                Backend
+            </h3>
+        </div>
+
+        <div class="container d-flex flex-wrap gap-5 mt-3 justify-content-start">
+
+            <div id="python" class="skill_card ms-5" data-label="Python">
+                <img src="Pictures/python_logo.png" class="card-img-top" alt="...">
+
+                <h6>
+                    <span>
+                        Python
+                    </span>
+                </h6>
+            </div>
+
+            <div id="C" class="skill_card p-0" data-label="C Programming">
+                <img src="Pictures/C_Logo.png" class="card-img-top" alt="...">
+
+                <h6>
+                    <span>
+                        C Programming
+                    </span>
+                </h6>
+            </div>
+
+            <div id="java" class="skill_card p-0" data-label="Java">
+                <img src="Pictures/java_logo.png" class="card-img-top" alt="...">
+
+                <h6>
+                    <span>
+                        Java
+                    </span>
+                </h6>
+            </div>
+
+            <div class="skill_card p-0" data-label="SQL (CRUD and Joins)">
+                <img src="Pictures/sql_logo.png" class="card-img-top" alt="">
+
+                <h6>
+                    <span>
+                        SQL (CRUD and Joins)
+                    </span>
+                </h6>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container d-flex justify-content-center">
+            <h1 style="color: #2F5D50;">
+                Projects
+            </h1>
+        </div>
+
+        <div class="container d-flex flex-wrap justify-content-around mt-5 mb-5 project_container">
+
+            <div class="card project_card span_card">
+                <img src="Pictures/Koenigsegg_CC850.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed and built a showcase website for the Koenigsegg CC850, highlighting
+                        its unique features, performance specifications, and heritage-inspired design elements. The site
+                        features a
+                        modern layout, a simple image gallery, smooth navigation and interactive elements to provide a
+                        user-friendly browsing experience
+                        that reflects the car’s aesthetics and fine engineering.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Koenigsegg-CC850/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card project_card">
+                <img src="Pictures/F1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed and built a comprehensive website explaining key concepts of Formula
+                        1. The site covers different types of races, tyre strategies, team structures, and provides
+                        explanations for fans and newcomers. It contains multiple dedicated pages covering topics such
+                        as the F1
+                        Sprint and different tyre compounds with smooth navigation and
+                        interactive elements to ensure a user-friendly experience.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Formula-1/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card project_card">
+                <img src="Pictures/HousePricePrediction.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">An end-to-end machine learning application for predicting California house
+                        prices. The project covers the full workflow from data preprocessing to model training,
+                        evaluation, and deployment.
+                        The performance of two ML models are compared to select the best predictor, and a Streamlit app
+                        provides an interactive UI to understand and analyze preditions and key factors.
+                        <br><br>
+                        <span class="text-muted">
+                            Python
+                        </span>
+                    </p>
+
+                    <a href="https://github.com/Abhishek8-netizen/California-House-Price-Prediction" target="_blank">
+                        <span>GitHub Repo <i class="fa-solid fa-arrow-up-right-from-square"
+                                style="font-size:12px;"></i></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <button id="all_project_button" onclick="showAllprojects()">
+            <span class="fw-bolder">All Projects</span>
+        </button>
+    </section>
+
+    <div id="all_projects" class=" pt-5">
+        <div>
+            <h2>
+                Front-End Projects
+            </h2>
+        </div>
+
+        <div class="container d-flex flex-wrap justify-content-around mt-5 pb-5 ps-5 pe-5 project_container">
+
+            <div class="card all_project_card">
+                <img src="Pictures/Kerala_Renaissance.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Created an interactive website highlighting major Kerala social reformers.
+                        Also
+                        developed a subpage detailing the historic Aruvippuram Idol Consecration.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Kerala-Renaissance/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card all_project_card span_card">
+                <img src="Pictures/Porsche_911.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed an interactive multi-page Porsche 911 showcase website,
+                        explaining
+                        different versions of the 911 and featuring special models with individual subpages.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/The-Porsche-911/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card all_project_card">
+                <img src="Pictures/Koenigsegg_Gemera.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed and developed a showcase website for the Koenigsegg Gemera
+                        using HTML, CSS
+                        and JavaScript to higlight the car's unique design and specifications.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Koenigsegg-Gemera/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card all_project_card span_card">
+                <img src="Pictures/Koenigsegg_CC850.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed and built a showcase website for the Koenigsegg CC850, featuring a
+                        modern layout and a simple image gallery
+                        that reflects the car’s heritage-inspired design.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Koenigsegg-CC850/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card all_project_card">
+                <img src="Pictures/F1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        Designed and built a comprehensive website explaining key concepts of Formula 1,
+                        covering the different types of races, tyre strategies, and team structures.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/Formula-1/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card all_project_card">
+                <img src="Pictures/PixelForge.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <p class="card-text">
+                        A concept website for a fictional digital studio, PixelForge Studios, including interactive
+                        project listings, a
+                        carousel for testimonials, and a responsive layout.
+                        <br><br>
+                        <span class="text-muted">
+                            HTML • CSS • JavaScript • Bootstrap
+                        </span>
+                    </p>
+
+                    <a href="https://abhishek8-netizen.github.io/PixelForge-Studios/" target="_blank">
+                        <span>View Live Site</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5">
+            <h2 class="pt-5">
+                Machine Learning Models (Python)
+            </h2>
+        </div>
+
+        <div class="container d-flex flex-wrap justify-content-around mt-5 pb-5 ps-5 pe-5 project_container">
+
+            <div class="card all_project_card all_project_card_ml">
+                <img src="Pictures/HousePricePrediction.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                        An end-to-end machine learning application for predicting California house
+                        prices. The project covers the full workflow from data cleaning to model training,
+                        evaluation, and deployment. It compares the performance of two ML models and includes a
+                        Streamlit app for interactive UI.
+                        <br><br>
+                        <span class="text-muted">
+                            Python
+                        </span>
+                    </p>
+
+                    <a href="https://github.com/Abhishek8-netizen/California-House-Price-Prediction" target="_blank">
+                        <span>
+                            GitHub Repo <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <nav class="button_container">
+            <button id="close_button" onclick="closeAllprojects()" class="p-2 fw-bolder">
+                <span>Close</span>
+            </button>
+        </nav>
+    </div>
+
+    <section id="certifications">
+        <div class="container d-flex">
+            <h1 class="ms-5" style="color: #2F5D50;">Certifications</h1>
+        </div>
+
+        <div class="container d-flex">
+
+            <ul class="list-group list-group-flush ms-5 fs-5">
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    <strong>Introduction to HTML, CSS, & JavaScript</strong>
+                    <br>
+                    <span class="fs-6">IBM</span>
+                    <br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/B8JPGWB3S26A"
+                        class="text-primary fs-6" target="_blank">
+                        Show credential <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </li>
+
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    <strong>Python for Data Science, AI & development</strong>
+                    <br>
+                    <span class="fs-6">IBM</span>
+                    <br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/ZXBERQTPK4FL"
+                        class="text-primary fs-6" target="_blank">
+                        Show credential <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </li>
+
+                <li class="list-group-item pt-3 pb-3 ps-0" style="background-color: #FAFBF9;">
+                    <strong>Python 101 for Data Science</strong>
+                    <br>
+                    <span class="fs-6">Cognitive Class</span>
+                    <br>
+                    <a href="https://courses.cognitiveclass.ai/certificates/c9bb963a393e4955a0aa4b3b01d85c39"
+                        class="text-primary fs-6" target="_blank">
+                        Show credential <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container d-flex">
+            <h1 class="ms-5" style="color:#FAFBF9">Get In Touch</h1>
+        </div>
+
+        <div class="container d-flex pt-3 gap-5">
+            <h6 class="ms-5">
+                <a href="mailto:abhisheksubramanian06@gmail.com">
+                    <i class="ps-1 fa fa-envelope"></i> Email Me
+                </a>
+            </h6>
+
+            <h6>
+                <a href="https://www.linkedin.com/in/abhishek-subramanian-64811b31a/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </h6>
+
+            <h6>
+                <a href="https://github.com/Abhishek8-netizen" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </h6>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
